@@ -6,3 +6,5 @@ Egghead.io playlists:
 2) https://egghead.io/q/angularjs?access_state=free&sortBy=popular
 
 3) https://egghead.io/lessons/angularjs-introduction-to-angular-formly
+
+4) http://docs.angular-formly.com/docs/custom-templates
