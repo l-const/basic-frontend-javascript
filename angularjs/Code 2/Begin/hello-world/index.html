@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+
+<html ng-app>
+    <head>AngularJS Hello World</head>
+
+    <body ng-init="data={loggedIn: true}">
+        <div ng-hide="isHidden">
+            Name: <input ng-model="name" type="text" ng-init="name='Kostas'" />
+        </div>
+    <br />
+
+    {{ name }}
+
+    Hide: <input type="checkbox" ng-model="isHidden" />
+
+    <p> Expression: {{1 * 2 }} </p>
+
+    <button ng-click="name='Michelle'">Change name</button>
+
+    <div ng-switch on="data.loggedIn">
+        <div ng-switch-when="false">Welcome</div>
+        <div ng-switch-default>Logged In {{ name }}</div>
+    </div>
+
+
+    <script src="angular.js"></script>
+</body>
+
+</html>
